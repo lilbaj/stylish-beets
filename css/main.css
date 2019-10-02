@@ -1,6 +1,7 @@
 html {
   background-color: #c9b5ab;
   line-height: 1.5;
+  font-family: "PT Serif", regular;
 }
 
 h1, h2{
@@ -11,6 +12,7 @@ h1, h2{
 
 nav {
   font-size: 1.125rem;
+  font-family: "PT Sans", bold;
 }
 
 a:hover {
