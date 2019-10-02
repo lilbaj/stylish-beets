@@ -10,10 +10,13 @@ h1, h2{
 }
 
 nav {
-  color: #8f2440;
   font-size: 1.125rem;
 }
 
 a:hover {
   color: #3f1622;
+}
+
+a:link {
+  color: #8f2440;
 }
