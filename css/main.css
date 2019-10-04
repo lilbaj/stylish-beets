@@ -22,3 +22,16 @@ a:hover {
 a:link {
   color: #8f2440;
 }
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+main p:first-of-type {
+  font-weight: bold;
+}
