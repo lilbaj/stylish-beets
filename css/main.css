@@ -14,6 +14,9 @@ nav {
   font-size: 1.125rem;
   font-family: "PT Sans", bold;
 }
+.not-this {
+  list-style-type: none;
+}
 
 a:hover {
   color: #3f1622;
@@ -34,4 +37,18 @@ figcaption {
 
 main p:first-of-type {
   font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  text-indent: 0.8em;
+}
+
+cite {
+  text-indent: 0.8em;
+  font-size: 0.8rem;
+}
+
+ol:not(.not-this) {
+  list-style-type: lower-greek;
 }
