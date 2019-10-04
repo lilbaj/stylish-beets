@@ -52,3 +52,15 @@ cite {
 ol:not(.not-this) {
   list-style-type: lower-greek;
 }
+
+#beet-nutrition, p {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: circle;
+}
