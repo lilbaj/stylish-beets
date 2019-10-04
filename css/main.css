@@ -2,9 +2,10 @@ html {
   background-color: #c9b5ab;
   line-height: 1.5;
   font-family: "PT Serif", regular;
+  font-weight: normal;
 }
 
-h1, h2{
+h1, h2 {
   font-family: "PT Sans", bold;
   color: #3f1622;
   font-size: 1.5rem;
@@ -13,17 +14,21 @@ h1, h2{
 nav {
   font-size: 1.125rem;
   font-family: "PT Sans", bold;
+  font-weight: bold;
 }
+
 .not-this {
   list-style-type: none;
 }
 
 a:hover {
   color: #3f1622;
+  text-decoration: underline;
 }
 
-a:link {
+a {
   color: #8f2440;
+  text-decoration: none;
 }
 
 img {
@@ -41,20 +46,16 @@ main p:first-of-type {
 
 blockquote {
   font-size: 1.5rem;
-  text-indent: 0.8em;
+  text-indent: .8em;
 }
 
 cite {
-  text-indent: 0.8em;
-  font-size: 0.8rem;
+  text-indent: .8em;
+  font-size: .8rem;
 }
 
 ol:not(.not-this) {
   list-style-type: lower-greek;
-}
-
-#beet-nutrition, p {
-  font-style: italic;
 }
 
 dt {
